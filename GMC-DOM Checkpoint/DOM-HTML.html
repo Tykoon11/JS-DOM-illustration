@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Roboto:wght@100;300;400&family=Work+Sans:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="DOM-CSS.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="background">
+        <div id="cart-can">
+            <div id="top">
+                <div id="half5">
+                    <i class="material-icons" style="font-size:28px; color:#0245AC; display: block; margin: 0 20px;">format_align_left</i>
+                    <p>Shopping Cart</p>
+                </div>
+                <div id="half6">
+                    <i class="material-icons" style="font-size:32px;color:#0245AC; display: block; margin: 0 20px; cursor: pointer;">shopping_cart</i>
+                    <i class="material-icons" style="font-size:32px;color:orange; display: block; margin-right: 100px; cursor: pointer;">perm_identity</i>
+                </div>
+            </div>
+
+            <div id="middle">
+                <div id="half1">
+                    <p style="margin-left: 373px; color: #A0A5AE; ">PRODUCT</p>
+
+                    <div id="item1" class="item " style="background-color: #C9DAF7;">
+                        <div class="img-can">
+                            <i class="fa fa-heart heart-off"></i>
+                            <img src="https://dailysole.com/wp-content/uploads/2021/10/Nike-SB-Dunk-High-Medium-Grey-DJ9800-001-Release-Date-Price-4.jpeg" alt="">
+                        </div>
+                        <p>Nike SB <br> #80984307874836 <br> color: Milk & grey <br> <br> <span class="remove" style="color: red; cursor: pointer;">Remove</span></p>
+                    </div>
+
+                    <div id="item2" class="item" style="background-color:#EFEFEF;">
+                        <div class="img-can">
+                            <i class="fa fa-heart heart-off"></i>
+                            <img src="https://www.highsnobiety.com/static-assets/thumbor/rE8K2_JMgHFP_DpxAH9c1LdDG2A=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2021/08/10121141/nike-air-jordan-4-red-thunder-release-date-info-price-04.jpg" alt="">
+                        </div>
+                        <p>Air Jordan <br> #80984307854876 <br> color: Red & Black <br> <br> <span class="remove" style="color: red; cursor: pointer;" >Remove</span></p>
+                    </div>
+
+                    <div id="item3" class="item" style="background-color: #C9DAF7;">
+                        <div class="img-can">
+                            <i class="fa fa-heart heart-off"></i>
+                            <img src="https://footwearnews.com/wp-content/uploads/2021/06/JORDAN-MELO-M12-DA8301_100_E_PREM-e1625065554472.jpg" alt="">
+                        </div>
+                        <p>Nike Air Force 1 <br> #80984307875389 <br> color: White & blue <br> <br> <span class="remove" style="color: red; cursor: pointer;">Remove</span></p>
+                    </div>
+                </div>
+
+                <div id="half2">
+                    <div>
+                        <p class="heading">PRICE</p>
+                        <p class="heading">QTY </p>
+                        <p class="heading">TOTAL</p>
+                    </div>
+                    <hr>
+                    <div class="numbers">
+                        <div>
+                            $<span class="price">52.00</span>
+                        </div>
+                        <div class="math-can"> 
+                            <i class="fa fa-plus plus-sign addition"></i>
+                            <span class="quantity" >1</span> 
+                            <i class="fa fa-minus minus-sign"></i>
+                        </div>
+                        <div>
+                            $<span class="total">52.00</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="numbers">
+                        <div>
+                            $<span class="price">65.00</span>
+                        </div>
+                        <div class="math-can"> 
+                            <i class="fa fa-plus plus-sign addition"></i>
+                            <span class="quantity">1</span> 
+                            <i class="fa fa-minus minus-sign"></i>
+                        </div>
+                        <div>
+                            $<span class="total">65.00</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="numbers">
+                        <div>
+                            $<span class="price">55.00</span>
+                        </div>
+                        <div class="math-can"> 
+                            <i class="fa fa-plus plus-sign addition"></i>
+                            <span class="quantity">1</span> 
+                            <i class="fa fa-minus minus-sign"></i>
+                        </div>
+                        <div>
+                            $<span class="total">55.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="last">
+                <div id="half3">
+                    <p> ADD NOTE <span style="margin-left:5px; color: #0245AC; font-size: 22px;">+</span> </p>
+                    <p>CALCULATE SHIPPING <span><i class="fa fa-calculator" style="font-size:18px;color:#0245AC; margin-left:5px;"></i></span> </p>
+                </div>
+                <div id="half4">
+                    <p>SUBTOTAL $<span id="subtotal">172.00</span> </p>
+                    <div>
+                        <label for="agree">I agree to <span id="terms">terms and conditions</span> </label>
+                        <input type="checkbox" name="agree" id="agree">
+                    </div>
+                    <button>CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="DOM-JS.js"></script>
+</body>
+</html>

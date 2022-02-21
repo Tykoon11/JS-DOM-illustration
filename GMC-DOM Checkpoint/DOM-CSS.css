@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+#background{
+    height: 100vh;
+    background-image: linear-gradient(135deg,#0245AC, #4986E8,#A7C4F4 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart-can{
+    height: 80vh;
+    background-color: #ffffff;
+    width: 80vw;
+    display: grid;
+    grid-template-rows: 100px 1fr 150px;
+    box-shadow: 10px 10px 50px ;
+    
+}
+#top{
+display: flex;
+justify-content: space-between;
+}
+#half5{
+display: flex;
+align-items: center;
+}
+#half6{
+display: flex;
+align-items: center;
+}
+#top p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: orange;
+    margin-left: 28px;
+    margin-top: auto;
+    border-bottom: #0245AC 3px solid;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+#middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#half1{
+    background-color:#FAFAFA;
+}
+
+#last{
+    background-color: #C9DAF6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 4px solid orange;
+}
+img {
+    height: 110px;
+    width: 180px;
+    margin: 0;
+}
+.img-can{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 40px;
+    
+}
+.item p {
+    margin-right: 60px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 300;
+    color: #4B4B4E;
+}
+#half2 div{
+    display: flex;
+    justify-content: space-between;
+}
+#half2 {
+    padding: 0 100px;
+}
+hr{
+    border: 0.5px solid #A0A5AE;
+    opacity: 0.3;
+}
+.heading{
+    color: #A0A5AE;
+}
+.numbers{
+    margin: 29px 0;
+}
+.numbers p{
+    color: #62646D;
+}
+#half3 p{
+    margin-left: 100px;
+    font-size: 90%;
+    font-family: 'Inconsolata', monospace;
+    color: #0245AC;
+}
+#half4{
+    padding-left: 100px;
+}
+#half4 p{
+font-family: 'Inconsolata', monospace;
+color: #0245AC;
+margin: 17px 0 7px 0;
+}
+#terms{
+    color: #E2A88F;
+    font-size: 90%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+div label{
+    font-size: 80%;
+}
+#half4 button{
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #0245AC;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.heart-off {
+    font-size:18px;
+    color:#0245AC;
+    padding:46px 40px 46px 0;
+    background-color: #FAFAFA;
+}
+.heart-on{
+    color: red;
+}
+.remove-div {
+    display: none;
+}
+.math-can{
+    margin-top: 15px;
+    color: #62646D;
+}
+.plus-sign{
+    margin: 3px 10px;
+    font-size: 12px;
+    color: #0245AC;
+    cursor: pointer;
+}
+.minus-sign{
+    margin: 4px 10px;
+    font-size: 12px;
+    color: orange;
+    cursor: pointer;
+}
+.remove-d{
+    display: none;
+}
