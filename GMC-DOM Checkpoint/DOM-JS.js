@@ -24,6 +24,7 @@ for(let i = 0; i < removeButton.length; i++){
     removeButton[i].addEventListener('click', function() {
         itemDiv[i].classList.add('remove-div');
         numbersDiv[i].style.display ="none"
+        subTotal.innerHTML = +subTotal.innerHTML - +total[i].innerHTML;
     });
 }
 
